@@ -24,7 +24,18 @@ A data analysis project visualizing global COVID-19 trends including cases, deat
 - matplotlib
 - seaborn
 - plotly (optional)
+## Folder Structure
 
+```
+covid19-global-data-tracker/
+│
+├── data/
+│   └── owid-covid-data.csv        # Place dataset here
+│
+├── notebooks/
+│   └── covid19_data_analysis.ipynb   # Main analysis notebook
+│
+└── README.md                     # Project description and setup
 ## 📂 How to Run
 1. Clone the repository
 2. Place `owid-covid-data.csv` in a `data/` folder
